@@ -1,0 +1,37 @@
+@relation deporte
+
+@attribute cielo {soleado, nublado, lluvioso}
+@attribute temperatura numeric
+@attribute humedad numeric
+@attribute hace_viento {si, no}
+@attribute hacer_deporte {si, no}
+
+@data
+soleado,26,25,no,no
+soleado,30,22,si,no
+nublado,23,86,no,si
+lluvioso,20,96,no,si
+lluvioso,28,80,no,si
+lluvioso,25,22,si,no
+nublado,24,65,si,si
+soleado,22,15,no,no
+soleado,29,70,no,si
+lluvioso,25,80,no,si
+soleado,25,82,si,si
+nublado,22,30,si,si
+nublado,21,25,no,si
+lluvioso,31,30,si,no
+soleado,30,20,no,no
+soleado,10,9,si,no
+nublado,23,20,no,no
+lluvioso,30,46,no,si
+lluvioso,18,60,no,si
+lluvioso,15,10,si,no
+nublado,24,25,si,si
+soleado,22,15,no,no
+soleado,19,30,no,si
+lluvioso,25,80,no,si
+soleado,25,42,si,si
+nublado,22,20,si,no
+nublado,31,45,no,si
+lluvioso,31,30,si,no

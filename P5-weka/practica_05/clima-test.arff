@@ -1,0 +1,10 @@
+@relation clima
+
+@attribute cielo {soleado, nublado, lluvioso}
+@attribute temperatura {calor, medio, frio}
+@attribute humedad {alta, normal}
+@attribute viento {fuerte, debil}
+@attribute jugar_tenis {si, no}
+
+@data
+soleado,suave,alta,fuerte,?

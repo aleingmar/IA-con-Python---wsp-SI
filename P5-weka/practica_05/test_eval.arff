@@ -1,0 +1,14 @@
+@relation deporte-test
+
+@attribute cielo {soleado, nublado, lluvioso}
+@attribute temperatura numeric
+@attribute humedad numeric
+@attribute hace_viento {si, no}
+@attribute hacer_deporte {si, no}
+
+@data
+soleado,40,25,no,si
+soleado,12,22,no,no
+nublado,23,54,si,si
+lluvioso,20,82,no,no
+

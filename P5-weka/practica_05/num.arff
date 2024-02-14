@@ -1,0 +1,12 @@
+@relation clima2
+
+@attribute temperatura real
+@attribute outlook {soleado, nublado}
+@attribute clasificacion {SI, NO}
+
+@data
+32,soleado,SI
+33,nublado,SI
+31,soleado,SI
+20,nublado,NO
+22,nublado,NO

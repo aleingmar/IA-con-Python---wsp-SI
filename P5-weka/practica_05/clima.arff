@@ -1,0 +1,23 @@
+@relation clima
+
+@attribute cielo {soleado, nublado, lluvioso}
+@attribute temperatura {calor, medio, frio}
+@attribute humedad {alta, normal}
+@attribute viento {fuerte, debil}
+@attribute jugar_tenis {si, no}
+
+@data
+soleado,calor,alta,debil,no
+soleado,calor,alta,fuerte,no
+nublado,calor,alta,debil,si
+lluvioso,medio,alta,debil,si
+lluvioso,frio,normal,debil,si
+lluvioso,frio,normal,fuerte,no
+nublado,frio,normal,fuerte,si
+soleado,medio,alta,debil,no
+soleado,frio,normal,debil,si
+lluvioso,medio,normal,debil,si
+soleado,medio,normal,fuerte,si
+nublado,medio,alta,fuerte,si
+nublado,calor,normal,debil,si
+lluvioso,medio,alta,fuerte,no
